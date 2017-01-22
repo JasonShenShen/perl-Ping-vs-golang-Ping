@@ -3,7 +3,7 @@ use AnyEvent;
 use AnyEvent::Ping;  
   
   
-my $cocurrent = 100;    # ²¢·¢Êý
+my $cocurrent = 100;
 my @todoList = map { "192.168.6." . $_ } (1 .. 254);
   
   
