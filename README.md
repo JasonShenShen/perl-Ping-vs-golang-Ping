@@ -1,6 +1,7 @@
 # perl-Ping-vs-golang-Ping
 use Anyevent::Ping VS use Golang goroutine concurrency , both timeout is 5 second and 100 concurrency
-golang-ping use <paulstuart/ping> ,but modify ping sub to return alive and error
+
+golang-ping use paulstuart/ping ,but modify ping sub to return alive and error
 
 ## use
 ```
